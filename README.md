@@ -1,104 +1,120 @@
-\# 🛠️ ShelBot Lite
+# 🛠️ ShelBot Lite
 
+**Your free, fully local, open-source ShelBot that runs on almost any computer.**
 
+Built by **Ryan** from [Sheltech LLC](https://sheltechllc.com) — the lightweight and accessible version of ShelBotX.
 
-\*\*Your free, local, open-source ShelBot that runs on almost any computer.\*\*
+![ShelBot Lite in action](Shelbot-lite-convo.png)
 
+---
 
+## ✨ What is ShelBot Lite?
 
-Built by \*\*Ryan\*\* from \[Sheltech LLC](https://sheltechllc.com) — the lightweight, accessible version of ShelBotX.
+ShelBot Lite is a **100% private local AI** you can run offline on your own PC. No subscriptions, no data leaving your machine.
 
+It carries the same helpful, witty, engineering-focused personality as the full ShelBotX — just optimized to run on modest hardware.
 
+---
 
-\---
+## 🎯 Features
 
+- **Completely Local** — Works offline after initial model download
+- **Persistent Memory** — Remembers your conversation across the session
+- **Simple & Reliable** — Console-based (no complicated UI)
+- **One-click setup** on Windows
+- **Easy to customize** (change model or personality)
+- **Free forever** — Open source
 
+---
 
-\## ✨ What is ShelBot Lite?
+## ⚙️ System Requirements
 
+| Component     | Minimum              | Recommended         |
+|---------------|----------------------|---------------------|
+| RAM           | 8 GB                 | 16 GB+              |
+| Storage       | ~5 GB (for model)    | 10 GB               |
+| Processor     | Modern 4-core CPU    | Any recent CPU/GPU  |
+| OS            | Windows (primary)    | Linux/macOS possible|
 
+**Runs great on normal laptops and older desktops.**
 
-ShelBot Lite is a \*\*fully local AI assistant\*\* you can run on your own PC with \*\*no internet required\*\* after setup. It keeps your data private and works great even on modest hardware.
+---
 
+## 🚀 Quick Start
 
+1. **Install Ollama**  
+   Download from [ollama.com](https://ollama.com)
 
-It has the same fun, engineering-focused personality as the full ShelBotX — just lighter and faster.
+2. **Download ShelBot Lite**  
+   Click **Code → Download ZIP** on this page
 
+3. **Setup**  
+   Extract the zip → Double-click `setup.bat`
 
+4. **Download the AI Model** (first time only)
+   ```powershell
+   ollama pull llama3.2:3b
 
-\### 🎯 Key Features
+5. **Launch**
+Double-click run.bat and start chatting!
 
-\- \*\*100% Local\*\* — Runs completely offline after downloading the model
 
-\- \*\*Simple Console Interface\*\* — No complicated setup or web UI headaches
+📋 What ShelBot Lite Can Do
 
-\- \*\*Persistent Memory\*\* — Remembers your previous conversations in the same session
+Help with rockets, drones, 3D printing, electronics, PID tuning, Arduino, Python, etc.
+Brainstorm experimental ideas and project planning
+Troubleshoot technical problems
+General knowledge with a fun, slightly sarcastic engineer vibe
 
-\- \*\*Easy one-click launch\*\* on Windows
+Best for: Makers, students, hobbyists, and garage engineers.
 
-\- \*\*Highly customizable\*\* — Easy to change the model or personality
+❌ Limitations
 
-\- \*\*Free forever\*\* — Open source under MIT license
+Uses a small 3B model → Good but not as intelligent as the full 70B ShelBotX
+Console interface only (keeps it lightweight)
+No internet tools or web browsing in the lite version
+Memory is saved locally but resets if you delete memory.json
+May hallucinate on very advanced or highly specific topics
 
+This is the free community edition — designed for accessibility.
 
+⬆️ Upgrade Options
+Want more power? Check out:
 
-\---
+ShelBot_Quan — Quantized higher-performance version
+Full ShelBotX — Maximum intelligence + advanced features
+EdgeAuton Core — Specialized for autonomous systems, drones & rockets
 
+Available on Gumroad (link coming soon) or message Ryan directly.
 
+🛠️ Customization
 
-\## ⚙️ Hardware Requirements (Very Lightweight)
+Edit Modelfile to change the personality
+Change the model name in shelbot.py (try llama3:8b, qwen2.5:7b, etc.)
+Modify the system prompt for different behavior
 
 
-
-| Component       | Minimum          | Recommended       |
-
-|-----------------|------------------|-------------------|
-
-| RAM             | 8 GB             | 16 GB+            |
-
-| Disk Space      | 4–6 GB (model)   | 10 GB             |
-
-| CPU             | Modern 4-core    | Any recent CPU    |
-
-| GPU             | Not required     | Optional (faster) |
-
-
-
-\*\*Tested on\*\*: Normal laptops, older desktops, and low-end machines.
-
-
-
-\---
-
-
-
-\## 🚀 Quick Start (Windows)
-
-
-
-1\. \*\*Install Ollama\*\*
-
-&#x20;  - Download and install from: \[ollama.com](https://ollama.com)
-
-&#x20;  - Open Ollama (it runs in the background)
-
-
-
-2\. \*\*Download ShelBot Lite\*\*
-
-&#x20;  - Download this repository as ZIP or `git clone` it
-
-
-
-3\. \*\*Run Setup\*\*
-
-&#x20;  - Double-click `setup.bat`
-
-
-
-4\. \*\*Pull the AI Model\*\* (first time only)
-
-&#x20;  ```powershell
-
-&#x20;  ollama pull llama3.2:3b
-
+📁 Folder Structure
+textShelBot-Lite/
+├── setup.bat
+├── run.bat
+├── shelbot.py
+├── Modelfile
+├── requirements.txt
+├── README.md
+├── LICENSE
+└── memory.json          ← Created automatically
+
+🤝 Contributing & Feedback
+Feel free to open issues or pull requests!
+Suggestions for better console UI, Linux support, or personality tweaks are very welcome.
+
+📜 License
+MIT License — You are free to use, modify, and share.
+
+❤️ Made by
+Ryan Shelton — Sheltech LLC
+From 3D printed rockets to local AI — because cool tools should be for everyone.
+Find me on X: @Ryan_shelton91
+
+Enjoy building with ShelBot Lite! 🚀
