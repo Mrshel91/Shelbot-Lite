@@ -4,7 +4,7 @@
 
 Built by **Ryan** from [Sheltech LLC](https://sheltechllc.com) — the lightweight and accessible version of ShelBotX.
 
-![ShelBot Lite in action](Shelbot-lite-convo.png)
+![ShelBot Lite running](Shelbot-lite%20convo.png)
 
 ---
 
@@ -55,13 +55,13 @@ It carries the same helpful, witty, engineering-focused personality as the full 
    ```powershell
    ollama pull llama3.2:3b
 
-5. **Launch**
+Launch
 Double-click run.bat and start chatting!
 
 
 📋 What ShelBot Lite Can Do
 
-Help with rockets, drones, 3D printing, electronics, PID tuning, Arduino, Python, etc.
+Rockets, drones, 3D printing, PID tuning, electronics, Arduino, Python, etc.
 Brainstorm experimental ideas and project planning
 Troubleshoot technical problems
 General knowledge with a fun, slightly sarcastic engineer vibe
@@ -72,9 +72,9 @@ Best for: Makers, students, hobbyists, and garage engineers.
 
 Uses a small 3B model → Good but not as intelligent as the full 70B ShelBotX
 Console interface only (keeps it lightweight)
-No internet tools or web browsing in the lite version
+No internet tools or web browsing
 Memory is saved locally but resets if you delete memory.json
-May hallucinate on very advanced or highly specific topics
+May hallucinate on very advanced topics
 
 This is the free community edition — designed for accessibility.
 
@@ -83,15 +83,14 @@ Want more power? Check out:
 
 ShelBot_Quan — Quantized higher-performance version
 Full ShelBotX — Maximum intelligence + advanced features
-EdgeAuton Core — Specialized for autonomous systems, drones & rockets
+EdgeAuton Core — Specialized for drones & rockets
 
-Available on Gumroad (link coming soon) or message Ryan directly.
+Available on Gumroad or message Ryan directly.
 
 🛠️ Customization
 
-Edit Modelfile to change the personality
-Change the model name in shelbot.py (try llama3:8b, qwen2.5:7b, etc.)
-Modify the system prompt for different behavior
+Edit the Modelfile to change personality
+Change the model in shelbot.py (try llama3:8b, qwen2.5:7b, etc.)
 
 
 📁 Folder Structure
@@ -107,14 +106,12 @@ textShelBot-Lite/
 
 🤝 Contributing & Feedback
 Feel free to open issues or pull requests!
-Suggestions for better console UI, Linux support, or personality tweaks are very welcome.
+Suggestions for colors, Linux support, or personality tweaks are welcome.
 
 📜 License
-MIT License — You are free to use, modify, and share.
+MIT License
 
 ❤️ Made by
 Ryan Shelton — Sheltech LLC
 From 3D printed rockets to local AI — because cool tools should be for everyone.
-Find me on X: @Ryan_shelton91
-
-Enjoy building with ShelBot Lite! 🚀
+X: @Ryan_shelton91
